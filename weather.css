@@ -1,0 +1,98 @@
+#gmap_canvas {
+    width: 650px;
+    height: 320px;
+  }
+  #navtop {
+    
+    
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.868);
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      padding: 8px 0px;
+  }
+  #navtop p {
+    margin-top: -15px;
+  }
+  #navbar {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 30%20%);
+    padding: 25px 0px;
+    background-color: rgba(242, 242, 242, 255);
+  }
+  #navbar > div {
+    /* border: 1px solid blue; */
+    margin-left: 190px;
+  }
+  #navbar > div > input {
+    padding: 10px 0px;
+    padding-right: 273px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+  }
+  #navbar > div > button {
+    padding: 10.5px 18px;
+    font-size: 19px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #48484a;
+    color: white;
+  }
+  #navbar > div > p {
+    background-color: white;
+    font-size: 19px;
+  }
+  #main {
+    width: 77%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 32%68%);
+    font-family: Space Grotesk, Arial, sans-serif;
+    gap: 10px;
+  }
+  /* #main > div {
+    border: 1px solid blue;
+  } */
+  #desc > ul {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    border-left: 2px solid #eb6e4b;
+    gap: 10px;
+  }
+  #main > div > p {
+    font-size: 17px;
+    color: #eb6e4b;
+  }
+  #main > div > p + h1 {
+    font-size: 25px;
+    margin-top: -13px;
+  }
+  #temp {
+    font-size: 47px;
+  }
+
+  #middle {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  #tempin {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 10%);
+    grid-template-rows: 90px;
+    gap: 20px;
+  }
+  #temp {
+    margin-top: -3px;
+  }
+  #container{
+    color: rgb(58, 54, 54);
+  }
+

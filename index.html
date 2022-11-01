@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Perfect Weather</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div id="navtop">
+      <h1>Get Perfect Weather Details</h1>
+      <p><i>(Created By Subham)</i></p>
+    </div>
+    <div id="navbar">
+      <div><input type="text" id="city" placeholder="Search City" /></div>
+      <div><button onclick="getData()">Search</button></div>
+      <div></div>
+    </div>
+
+    <div id="main">
+      <div id="container">
+        <p id="date">Aug 5, 10:17pm</p>
+        <h1 id="london">London, GB</h1>
+        <div id="tempin">
+          <span
+            ><img
+              style="width: 98%"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqNoDd6QNK_YTWK8INoVxzc3jkgeWu8YlR7w&usqp=CAU"
+              alt=""
+          /></span>
+          <h1 id="temp">18°C</h1>
+        </div>
+
+        <div id="middle">
+          <span id="feels">Feels like 17°C.</span>
+          <span id="few">Few clouds.</span>
+          <span id="gentle"> Gentle Breeze</span>
+        </div>
+
+        <div id="desc">
+          <ul type="none">
+            <li id="mintemp">Min Temp. : 13°C</li>
+            <li id="humidity">Humidity: 50</li>
+            <li id="maxtemp">Max Temp. : 19°C</li>
+            <li id="clouds">Clouds: 100</li>
+            <li id="visibility">Visibility: 1000</li>
+            <li id="windspeed">Wind Speed: 4.34</li>
+          </ul>
+        </div>
+      </div>
+      <div class="gmap_canvas">
+        <iframe
+          id="gmap_canvas"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?q= $london&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        ></iframe>
+      </div>
+    </div>
+
+    <p></p>
+  </body>
+</html>
+
+<script src="weather.js"></script>
